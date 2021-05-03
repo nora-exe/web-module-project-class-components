@@ -8,7 +8,7 @@
 * Design can be kept consistent by only exposing the parts which are supposed to be customized.
 
 ## Key Concepts:
-* 📝The History of React Components [React components have changed a lot through the years.](https://www.youtube.com/watch?v=Kzeog8yTFaE)
+* 📝The History of React Components: [React components have changed a lot through the years.](https://www.youtube.com/watch?v=Kzeog8yTFaE)
 * 📝Prop Drilling - [The process of taking a value and passing it into a nested component for use downstream.](https://kentcdodds.com/blog/prop-drilling)
 * 📝Passing State through Data Prop Drilling - [The process of sharing application state to sub-components using prop drilling.](https://www.robinwieruch.de/react-pass-props-to-component#react-props-vs-state)
 * 📝Updating State through Functional Prop Drilling - [The process of sharing application state to sub-components using prop drilling.](https://www.robinwieruch.de/react-pass-props-to-component#react-props-vs-state)
