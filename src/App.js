@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 import TodoList from "./components/TodoList";
 import TodoForm from "./components/TodoForm";
@@ -9,12 +9,12 @@ import './components/Todo.scss';
 // initial array of todo items
 const tasks = [
   {
-    task: 'Type in a new task',
+    task: 'type in a new task',
     id: 1528817077286,
     completed: false
   },
   {
-    task: 'Click \'Add\'',
+    task: 'then click +',
     id: 1528817084358,
     completed: false
   }
@@ -70,8 +70,13 @@ class App extends React.Component {
       <div className="App">
         <div className="header">
            <h1>📝 Welcome to your To-Do App! ✔</h1>
+           <h2>let's be productive today!</h2>
           <TodoList toggleTask={this.toggleTask} tasks={this.state.tasks} />
           <TodoForm addTask={this.addTask} clearCompleted={this.clearCompleted} />
+          <div className="tips">
+            <h3>💡 Tip: Start with the hardest task</h3>
+            <span>If you start with the tough stuff, then you know things are only going to get easier today!</span>
+          </div>
          </div>
        </div>
     );

@@ -23,7 +23,6 @@ p,
 span {
   color: navy;
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
 }
 
 .App {
@@ -36,10 +35,24 @@ span {
 
 h1 {
   color: white;
+  text-shadow: 2px 2px darkgray;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+h2 {
+  font-size: 1em;
+  color: gray;
+}
+
+h3 {
+  color: white;
+  text-shadow: 1px 1px goldenrod;
+  font-size: 1em;
+}
+
+
 
 .todo-list {
   display: flex;
@@ -50,7 +63,7 @@ h1 {
 }
 
 .item {
-  // background-color: #3f7b70;
+  position: relative;
   background-color: #b7fbff;
   width: 45%;
   text-align: center;
@@ -59,11 +72,36 @@ h1 {
   cursor: pointer;
 }
 
+// Folded corner
+
+.item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  border-color: #ffe0a3 #ffe0a3 #86D3FF #86D3FF;
+  background: #ffe0a3;
+}
+
 .item.completed {
   // background-color: #56a597;
   background-color: #fff6be;
   text-decoration: line-through;
 }
+
+.item.completed::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  border-color: #ffe0a3 #ffe0a3 #ffd382 #ffd382;
+  background: #ffe0a3;
+}
+
 form {
   width: 100%;
   display: flex;
@@ -83,18 +121,33 @@ form > input {
   margin-right: 8px;
 }
 
+input::placeholder {
+  color: #ffa1ac;
+  opacity: 1;
+}
+
 button {
-  // background-color: #3f7b70;
   background-color: #ffa1ac;
-  // border: 1px solid #3f7b70;
   border: 1px solid white;
   color: white;
   font-size: 16px;
   padding: 6px 14px;
 }
 
-input::placeholder {
-  // color: #3f7b70;
-  color: #ffa1ac;
-  opacity: 1;
+#clear {
+  margin-top: 2.5%;
 }
+
+.tips {
+  display: flex;
+  flex-flow: column wrap;
+  // justify-content: space-between;
+  width: 50%;
+  margin: 10% auto;
+}
+
+.tips span {
+  font-size: .8em;
+}
+
+

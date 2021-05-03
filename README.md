@@ -1,4 +1,34 @@
-# React-Todo
+# Notes
+💡https://javascript.plainenglish.io/design-systems-designing-component-apis-25dcf81d26f5
+
+## Why components?
+* Reusable templates 
+* Product code becomes **easier to read and maintain** through the **encapsulation of logic, styles and markup inside components.**
+* Conflicting class names and other definitions can be avoided since they are **isolated inside the component’s scope.**
+* Design can be kept consistent by only exposing the parts which are supposed to be customized.
+
+## Key Concepts:
+* 📝The History of React Components [React components have changed a lot through the years.](https://www.youtube.com/watch?v=Kzeog8yTFaE)
+* 📝Prop Drilling - [The process of taking a value and passing it into a nested component for use downstream.](https://kentcdodds.com/blog/prop-drilling)
+* 📝Passing State through Data Prop Drilling - [The process of sharing application state to sub-components using prop drilling.](https://www.robinwieruch.de/react-pass-props-to-component#react-props-vs-state)
+* 📝Updating State through Functional Prop Drilling - [The process of sharing application state to sub-components using prop drilling.](https://www.robinwieruch.de/react-pass-props-to-component#react-props-vs-state)
+* 📝Application State Vs Component State - [Application state indicates the state shared by a number of components. Component State indicates state local only to a components internal parts.](https://teamtreehouse.com/community/what-is-the-difference-between-application-state-and-component-state-in-react)
+* 📝Form Component Setup - [The process of setting up (component) state, controlled inputs, onChange and onSubmit events to allow component form submission.](https://reactjs.org/docs/forms.html)
+
+## Key Terminology:
+* 📝class component - [A type of component that takes the form of a class extended from React.Component class.](https://www.w3schools.com/react/react_components.asp)
+* 📝React.Component class - [A react class that gives allows for the creation of class components and all their special features.](https://reactjs.org/docs/react-component.html)
+* 📝class constructor - [A class method that is called when an instance is first created of from a class.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor)
+* 📝the render function - [A pre-defined function that allows for a class component to render DOM objects.](https://reactjs.org/docs/components-and-props.html)
+* 📝the this property - [A reference to the current instance of a class. In class components, the place where props, state and internally defined event methods are accessed.](https://www.w3schools.com/js/js_this.asp)
+* 📝filter - [An array method that take a predicate function as an argument returns every item that where that function return true.](https://www.w3schools.com/jsref/jsref_filter.asp)
+* 📝super - [A built in function that give a child class access to a parent class' methods and properties.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super)
+
+## Links
+* 🎥 GP https://youtu.be/sYzxvWZqVMA
+* 📝 MP https://github.com/nora-exe/web-module-project-class-components/tree/nora-corser
+
+# Readme: React-Todo
 
 We're going to practice building a stateful class component with this project. Even though hooks are gaining popularity among react developers, class components are going to be around for a long time. It's imperative that you get use to class components, and feel comfortable working with class components since you'll most likely need to work with them if you are hired to work on a React app.
 
@@ -80,3 +110,5 @@ Follow these steps for completing your project.
 - [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request**
 - [ ] From the home page of your repo, make sure you have your branch selected
 - [ ] Copy the URL and paste it into Canvas to submit your assignment
+
+
