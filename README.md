@@ -1,4 +1,25 @@
-# Notes
+# 📝Welcome to Sticky To-Do!
+
+✔ [Deployed with Vercel](https://sticky-todo.vercel.app/)
+
+[<img src="https://media-exp1.licdn.com/dms/image/C4D2DAQEWqILn5OiPMw/profile-treasury-image-shrink_1920_1920/0/1636491152368?e=1636664400&v=beta&t=UiM-7Ejyq3gXSHEO6SHwpz6E40ViA8Lzm3P7q7Mxg94" />](https://sticky-todo.vercel.app/)
+
+
+# Features
+
+- simple straightforward design
+- cheerful color scheme inspired by Post-It notes
+- encouraging productivity tips
+- responsivity from small (mobile) to large (desktop)
+
+## Future Features:
+
+- data persistence
+- cycle through productivity tips on timer or page refresh
+
+<br><br>
+
+# Learner Notes
 💡https://javascript.plainenglish.io/design-systems-designing-component-apis-25dcf81d26f5
 
 ## Why components?
@@ -23,6 +44,8 @@
 * 📝the this property - [A reference to the current instance of a class. In class components, the place where props, state and internally defined event methods are accessed.](https://www.w3schools.com/js/js_this.asp)
 * 📝filter - [An array method that take a predicate function as an argument returns every item that where that function return true.](https://www.w3schools.com/jsref/jsref_filter.asp)
 * 📝super - [A built in function that give a child class access to a parent class' methods and properties.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super)
+
+<!--
 
 ## Links
 * 🎥 GP https://youtu.be/sYzxvWZqVMA
@@ -111,4 +134,5 @@ Follow these steps for completing your project.
 - [ ] From the home page of your repo, make sure you have your branch selected
 - [ ] Copy the URL and paste it into Canvas to submit your assignment
 
+-->
 
