@@ -2,7 +2,7 @@
 
 ✔ [Deployed with Vercel](https://sticky-todo.vercel.app/)
 
-[<img src="https://media-exp1.licdn.com/dms/image/C4D2DAQEWqILn5OiPMw/profile-treasury-image-shrink_1920_1920/0/1636491152368?e=1636664400&v=beta&t=UiM-7Ejyq3gXSHEO6SHwpz6E40ViA8Lzm3P7q7Mxg94" />](https://sticky-todo.vercel.app/)
+[<img src="https://media-exp1.licdn.com/dms/image/C4D2DAQEWqILn5OiPMw/profile-treasury-image-shrink_1920_1920/0/1636491152368?e=1637089200&v=beta&t=jzZxD3qVERpRz5Y_TMNnJxFA6nkANtj-ec3JoH8tXNs" />](https://sticky-todo.vercel.app/)
 
 
 # Features
